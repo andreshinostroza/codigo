@@ -38,6 +38,7 @@ input{
     border-bottom: 1px solid #bbb;
     font-size: 30px;
     margin-top: 15px;
+    outline: none;
 }
 label{
     display: block;

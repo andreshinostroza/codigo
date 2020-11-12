@@ -125,8 +125,10 @@ padding:0;
         height: 580px;
         width: 365px;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
     .img{
-        width: 360px;
+        width: 365px;
     }
 }

@@ -2,7 +2,7 @@
     font-family: Itim, arial, sans-serif ;
     /* font-size: 50px; */
     font-weight: 500;
-    /* color: red; */
+    color: red;
 }
 body{
     background-color:#f1f1f1 ;
@@ -25,7 +25,6 @@ body{
     font-size: 50px;
     font-weight: bold;
 
-    
 }
 .form{ /*por que no le pasa la propiedad a sus hijos*/
     color: #bbb ;
@@ -40,7 +39,7 @@ body{
     margin-top: 15px;
     outline: none;
 }
-label{
+.label{
     display: block;
     margin: 5px 0;
 }

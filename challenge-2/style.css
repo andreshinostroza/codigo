@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+:root{
+    --violet: hsl(257, 40%, 49%);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 5px solid red; */
+}
+.wrapper{
+    max-width: 1440px;
+    
+    /* background-color: saddlebrown; */
+}
+.header{
+    /* background-color: red; */
+    width: 100%;
+    padding: 30px;
+}
+.logo{
+    width: 18%;
+}
+.main{
+    margin: 30px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: skyblue; */
+}
+.figure{
+    /* background: salmon; */
+    width: 45%;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.image{
+    width: 100%;
+}
+.section{
+    width: 42%;
+    /* background-color: seagreen; */
+    color: #eee;
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4em;
+    padding:20px 0;
+    padding-top: 30px;
+    /* background-color: #555; */
+}
+.parrafo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 35px  ;
+    /* background-color: sienna; */
+    font-weight: 400;
+}
+.button{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    background-color: #eee;
+    border-radius: 2em;
+    width: 200px;
+    box-shadow: 0 0 10px #555;
+    border: none;
+    padding: 1em;
+    outline: none;
+    cursor: pointer;
+}
+.footer{
+    text-align: right;
+    margin: 25px;
+}
+.icon{
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white ;
+    margin: 5px;
+    transition: 0.3s all ease-in-out;
+}
+.icon:hover {
+	color: hsl(300, 69%, 71%);
+	border: 1px solid hsl(300, 69%, 71%);
+}
+.button:hover {
+	color: white;
+    background-color:  hsl(300, 69%, 71%);
+}
